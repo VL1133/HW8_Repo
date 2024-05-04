@@ -60,7 +60,7 @@ public class CheckoutPage extends BasePage {
         CheckoutPage.writeInEmailInputField(driver);
         CheckoutPage.writeInTelephoneInputField(driver);
         CheckoutPage.writeInAddressInputField(address);
-        CheckoutPage.writeInCityInputField(postcode);
+        CheckoutPage.writeInCityInputField(city);
         CheckoutPage.writeInPostcodeInputField(postcode);
         CheckoutPage.selectCountryOptionByValue(countryValue);
         CheckoutPage.selectRegionOptionByValue(regionValue);
