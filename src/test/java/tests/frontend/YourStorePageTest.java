@@ -9,7 +9,7 @@ import tests.base.BaseTest;
 public class YourStorePageTest extends BaseTest {
 
     @Test
-    public void selectMacDestkopsDropdownOptionTest(){
+    public void selectMacDesktopsDropdownOptionTest(){
         YourStorePage.goToLoginPage();
         YourStorePage.selectMacDesktopsDropdownOption();
         String actualPageNameText = YourStorePage.getMacPageText();
